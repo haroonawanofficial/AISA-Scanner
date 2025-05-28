@@ -15,7 +15,7 @@
 | Category                     | Description |
 |-----------------------------|-------------|
 |  **Target Types**         | Domains, Subdomains, IPs, TCP Ports |
-|  **AI Engine**            | Zero-Shot SecBERT OWASP classification |
+|  **AI Engine**            | Zero-Shot OWASP classification |
 |  **Risk Model**           | Online self-learning classifier with scoring |
 |  **CVEs**                 | CVE detection from banners, NLP (NER), and AI hints |
 |  **CVE Enrichment**       | CVSS, CWE, and Descriptions from NVD |
