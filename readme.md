@@ -1,0 +1,60 @@
+#  AISA-Scanner — Autonomous AI Security Agent
+
+**AISA-Scanner** is a self-evolving, AI/ML-driven cybersecurity analysis toolkit that blends NLP, CVE enrichment, autonomous scanning, risk modeling, and enterprise-grade reporting into a single framework. It’s designed for modern security researchers, penetration testers, red teams, and enterprise defenders who need real-time vulnerability insight, enriched intelligence, and actionable outcomes.
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen.svg)
+![AI-Powered](https://img.shields.io/badge/AI--Driven-SecBERT/NLP-purple.svg)
+![MITRE Mapping](https://img.shields.io/badge/MITRE%20ATT%26CK-Auto--Mapped-red.svg)
+
+---
+
+## Key Features
+
+| Category                     | Description |
+|-----------------------------|-------------|
+|  **Target Types**         | Domains, Subdomains, IPs, TCP Ports |
+|  **AI Engine**            | Zero-Shot SecBERT OWASP classification |
+|  **Risk Model**           | Online self-learning classifier with scoring |
+|  **CVEs**                 | CVE detection from banners, NLP (NER), and AI hints |
+|  **CVE Enrichment**       | CVSS, CWE, and Descriptions from NVD |
+|  **Exploit Mapping**      | Metasploit modules auto-mapped from CVE |
+|  **Enterprise Reports**   | HTML reports with datatables, CVE links, MITRE heatmaps, export buttons |
+|  **Taxonomy Mapping**     | Automatic mapping to MITRE ATT&CK, CEH Modules, and SANS CWE Top 25 |
+|  **Subdomain Scanner**    | Fuzzy resolver with wildcard detection |
+|  **HTTP + TCP Support**   | Fetch + probe banners on open TCP ports |
+|  **Persistent Findings**  | SQLite logging with JSON blob per record |
+|  **NLP-Powered Risk**     | Uses AI confidence + vulnerability count + MSF links to assign severity |
+|  **Offline/Resumable**    | Caches mappings, CVE details, MSF modules for offline use |
+|  **Self-Healing Model**   | Trains on new results to refine the accuracy |
+|  **Customizable**         | Time budget, confidence gating, subdomain limit, custom port range |
+
+---
+
+## 🧪 Comparison: AISA-Scanner vs Other Tools
+
+| Feature                            | AISA-Scanner | Nessus | Nikto | OpenVAS |
+|-----------------------------------|:------------:|:------:|:-----:|:-------:|
+| AI Labeling (OWASP SecBERT)       | ✅           | ❌     | ❌    | ❌      |
+| Zero-Shot Classification (NLP)    | ✅           | ❌     | ❌    | ❌      |
+| CVE Auto-Mapping to MSF Modules   | ✅           | ❌     | ❌    | ✅      |
+| MITRE ATT&CK + CEH + SANS Mapping | ✅           | Partial| ❌    | Partial |
+| Subdomain Enumeration             | ✅           | ❌     | ❌    | ❌      |
+| TCP Port Banner Scanning          | ✅           | ✅     | ❌    | ✅      |
+| PDF/CSV/Excel Report Export       | ✅           | ✅     | ❌    | ✅      |
+| Self-Learning Risk Model          | ✅           | ❌     | ❌    | ❌      |
+| Lightweight & CLI-Ready           | ✅           | ❌     | ✅    | ❌      |
+| Free and Open Source              | ✅           | ❌     | ✅    | ✅      |
+
+> ✅ **Why AISA-Scanner Wins**: It blends intelligent classification, autonomous enrichment, deep CVE-MSF relationships, and a lightweight, no-dependency interface for real-time scanning and reporting—all in one script.
+
+---
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/haroonawanofficial/AISA-Scanner.git
+cd AISA-Scanner
+pip install -r requirements.txt
+```
