@@ -32,7 +32,7 @@
 
 ---
 
-## 🧪 Comparison: AISA-Scanner vs Other Tools
+## Comparison: AISA-Scanner vs Other Tools
 
 | Feature                            | AISA-Scanner | Nessus | Nikto | OpenVAS |
 |-----------------------------------|:------------:|:------:|:-----:|:-------:|
@@ -47,8 +47,9 @@
 | Lightweight & CLI-Ready           | ✅           | ❌     | ✅    | ❌      |
 | Free and Open Source              | ✅           | ❌     | ✅    | ✅      |
 
-> ✅ **Why AISA-Scanner Wins**: It blends intelligent classification, autonomous enrichment, deep CVE-MSF relationships, and a lightweight, no-dependency interface for real-time scanning and reporting—all in one script.
-
+> **Why AISA-Scanner Wins**: It blends intelligent classification, autonomous enrichment, deep CVE-MSF relationships, and a lightweight, no-dependency interface for real-time scanning and reporting—all in one script.
+> Author: Haroon Ahmad Awan
+> haroon@cyberzeus.pk
 ---
 
 ## 🔧 Installation
