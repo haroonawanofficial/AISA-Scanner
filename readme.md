@@ -36,7 +36,7 @@
 
 | Feature                            | AISA-Scanner | Nessus | Nikto | OpenVAS |
 |-----------------------------------|:------------:|:------:|:-----:|:-------:|
-| AI Labeling (OWASP SecBERT)       | ✅           | ❌     | ❌    | ❌      |
+| AI Labeling (OWASP)       | ✅           | ❌     | ❌    | ❌      |
 | Zero-Shot Classification (NLP)    | ✅           | ❌     | ❌    | ❌      |
 | CVE Auto-Mapping to MSF Modules   | ✅           | ❌     | ❌    | ✅      |
 | MITRE ATT&CK + CEH + SANS Mapping | ✅           | Partial| ❌    | Partial |
