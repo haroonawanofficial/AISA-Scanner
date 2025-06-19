@@ -9,6 +9,10 @@
 ![MITRE Mapping](https://img.shields.io/badge/MITRE%20ATT%26CK-Auto--Mapped-red.svg)
 
 ---
+## DOWNLOAD FULL PDF HERE
+https://cyberzeus.pk/AISA_Scanner_The_Autonomous_AI_Security_Agent_Technical_Guide.pdf
+
+---
 
 ## Key Features
 
